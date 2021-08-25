@@ -1,0 +1,9 @@
+/* Toggle B */
+input:checked ~ .dot {
+    transform: translateX(100%);
+    background-color: #181d1a;
+  }
+
+  input:checked ~ .bg{
+    background-color: #fff;
+  }
