@@ -9,7 +9,7 @@ const Main = () => {
     <div
       className={`${
         theme === "Light" ? "bg-white text-gray-700" : "bg-gray-700 text-white"
-      } py-5`}
+      } pt-5`}
     >
       <Switch />
       <Curency/>
@@ -34,6 +34,9 @@ const Main = () => {
           </>
         )}
       </div>
+      <div className='bg-gray-300 py-3 text-xl text-black text-center mt-5'>
+       Get API From <a className='text-red-400' href="https://coingecko.com/">coingecko.com</a>
+     </div>
     </div>
   );
 };

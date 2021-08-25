@@ -5,6 +5,7 @@ function App() {
   return (
     <Context>
      <Main/>
+     
     </Context>
   );
 }
