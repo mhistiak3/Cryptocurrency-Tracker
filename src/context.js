@@ -4,7 +4,7 @@ export let MainContext = createContext();
 const Context = ({ children }) => {
   let [theme, setTheme] = useState("Light");
   let [data, setData] = useState([]);
-  let [curency, setCurency] = useState("BDT");
+  let [curency, setCurency] = useState("USD");
   let [page, setPage] = useState(1);
   let [load, setLoad] = useState(true);
   useEffect(() => {
