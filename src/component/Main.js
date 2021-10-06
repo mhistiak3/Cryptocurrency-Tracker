@@ -34,8 +34,8 @@ const Main = () => {
           </>
         )}
       </div>
-      <div className='bg-gray-300 py-3 text-xl text-black text-center mt-5'>
-       Get API From <a className='text-red-400' href="https://coingecko.com/">coingecko.com</a>
+      <div className='bg-gray-300 py-3 text-md text-black text-center mt-5'>
+       fetch api from <a  href="https://coingecko.com/">coingecko.com</a>
      </div>
     </div>
   );
